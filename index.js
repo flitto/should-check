@@ -1,3 +1,5 @@
+var should = require('should');
+
 var gObjs;
 
 exports.init = function(objs) {

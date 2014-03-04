@@ -1,0 +1,25 @@
+{
+  "name": "should-check",
+  "version": "0.0.0",
+  "description": "object check module using should.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flitto/should-check.git"
+  },
+  "keywords": [
+    "should",
+    "check"
+  ],
+  "author": "flitto",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/flitto/should-check/issues"
+  },
+  "dependencies": {
+    "should": "latest"
+  }
+}
