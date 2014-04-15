@@ -58,4 +58,5 @@ var check = exports.check = function(name, obj) {
 exports.checkJSON = function(name, json_str) {
   var obj = JSON.parse(json_str);
   check(name, obj);
+  return obj;
 };
