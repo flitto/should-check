@@ -3,6 +3,9 @@ var should = require('should');
 function init(gObj) {
 
   function check(name, obj) {
+    if (!obj || typeof obj != 'object')
+      throw new Error('Arguments[1] must be an object');
+
     if (/[a-z]/.test(name[0])) {
       obj.should.be.type(name);
       return;
@@ -52,7 +55,7 @@ function init(gObj) {
   }
 
   function checkJSON(name, json_str) {
-    var obj = JSON.parse(json_str);
+    var obj = typeof json_str == 'string' ? JSON.parse(json_str) : json_str;
     check(name, obj);
     return obj;
   }
