@@ -1,6 +1,6 @@
 {
   "name": "should-check",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "object check module using should.js",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,14 @@
     "check"
   ],
   "author": "flitto",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/flitto/should-check/issues"
   },
   "dependencies": {
     "should": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
   }
 }
