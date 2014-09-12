@@ -35,4 +35,4 @@ compare target_obj and name of object
 
 ### sc.checkJSON(name, json_str)
 parse json_str and compare the json and name of object.
-Also return the parsed json object;
+Also return the parsed json object.
