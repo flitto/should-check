@@ -4,12 +4,7 @@ function init(gObj) {
 
   function check(name, obj) {
     if (!obj || typeof obj != 'object')
-      throw new Error('Arguments[1] must be an object');
-
-    if (/[a-z]/.test(name[0])) {
-      obj.should.be.type(name);
-      return;
-    }
+      throw new Error('arguments[1] must be an object');
 
     if (!gObj)
       throw new Error('Please call init() with obj definitions before call check()!');
