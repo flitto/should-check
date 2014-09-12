@@ -21,7 +21,7 @@ var sc = check.init(obj);
 
 sc.check('Model', {prop1: 'val1'});
 sc.check('List', [{prop1: 'val1'}]);
-sc.check('List', {list: [{prop1: 'val1'}]});
+sc.check('ModelListObj', {list: [{prop1: 'val1'}]});
 
 var json = sc.checkJSON('Model', '{"prop1": "val1"}');
 ```
